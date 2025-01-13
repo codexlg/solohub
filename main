@@ -21,7 +21,7 @@ local HvH_Chatspam = {"HHHHHH D0g owned by SoloHub user hhh", "No SoloHub no tal
 local China_Chatspam = {"SoloHubæä½³", "SoloHubä¸è¡£", "èæ¬é»å®¢è½¯ä»¶", "äºé©¬é", "æ·éè", "æåæºé»å®¢SoloHub", "å¤©å®é¨å¹¿åºæ¯åçï¼ä¸é¢æSoloHub, tianamen square", "ä¹æ²»Â·å¼æ´ä¼å¾·", "ç·äººå¥³äººç«ä¸­å½é¡¶", "å¯æçé»äºº", "æ¯ç²è´´è½¯ä»¶", "xå¼å¾", "æ°´å°ç", "é´èææ¯", "é»è²çæ´»æ æè°BLM", "femboyesæ¯åæ§æ"}
 local uion = true
 local circle = Drawing.new("Circle")
-local LP = game:GetService("Players").LocalPlayer
+local LP = game.Players.LocalPlayer
 circle.Visible = false
 local fakeanim = Instance.new('Animation', workspace)
 fakeanim.AnimationId = 'rbxassetid://0'
